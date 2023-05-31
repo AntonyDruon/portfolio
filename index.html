@@ -15,10 +15,9 @@
     <script src="./js/animationPresentation.js" defer></script>
     <script src="./js/animationCardProjet.js" defer></script>
     <script src="./js/animationStickyHeader.js" defer></script>
-    <script src="./js/smtpjs.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"defer></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js" defer></script>
-    <script src=" https://smtpjs.com/v3/smtp.js" defer></script>
+    
     
     
 
@@ -222,12 +221,12 @@
       </main>
     <footer>
       <div class="containerForm">
-        <form onsubmit="sendEmail(); reset(); return false;">
+        <form action="https://formsubmit.co/96f8518d17019e256bf9704b8f93d1f7" method="POST" />
           <h4>QUESTION?</h4>
-          <input type="text" id="name" placeholder="Prénom" required>
-          <input type="text" id="email" placeholder="Email" required>
-          <textarea  id="message" rows="4" placeholder="Placer votre message ici"></textarea>
-          <button type="submit">Envoyer</button>
+          <input name="name"type="text" id="name" placeholder="Prénom" required>
+          <input name="email" type="text" id="email" placeholder="Email" required>
+          <textarea  name="message" id="message" rows="4" placeholder="Placer votre message ici"></textarea>
+          <button name ="submit" type="submit">Envoyer</button>
         </form>
       </div>
       <div class="containerFooter">
