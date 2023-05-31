@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./js/animationPresentation.js" defer></script>
+    <script src="./js/animationCardProjet.js" defer></script>
+    <script src="./js/animationStickyHeader.js" defer></script>
+    <script src="./js/smtpjs.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"defer></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js" defer></script>
+    <script src=" https://smtpjs.com/v3/smtp.js" defer></script>
+    
+    
+
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <li>
+        <ul><a href="#Accueil">Accueil</a></ul>
+        <ul><a href="#Projet">Projet</a></ul>
+        <ul><a href="#CV">CV</a></ul>
+        
+        
+      </li>
+    </header>
+    <main>
+      <div id="Accueil" class="containerPresentation">
+        <div class="presentation">
+          <div class="presentationMoi">
+            <div class="containerPresentationMoi">
+              <p>👋</p>
+              <h2>Moi c'est <span>Antony Druon </span></h2>
+            </div>
+          </div>
+          <div class="presentationText">
+            <div class="container">
+              <p>Bienvenue sur mon portfolio</p>
+              <p>
+                Je suis un Developpeur web Junior en <span></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="illustration">
+          <div class="containerIllustration">
+            <img class="Illu" src="/img/Illustration.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="containerTitre">
+        <div class="titre">
+          <h1 id="Projet">Projet</h1>
+        </div>
+      </div>
+      <div class="containerProjet">
+        <div class="PlacementCardProject">
+            <div class="tailleCardProjet2">
+                <a href="https://github.com/AntonyDruon/Vulgarigeek"></a>
+                <div class="containerImg">
+                  <div class="imgSite"></div>
+                </div>
+                <div class="containerDescription">
+                  <div class="titreProjet">
+                    <h4>
+                      Vulgarigeek
+                      <span
+                        ><img
+                          style="width: 10px; height: 10px"
+                          src="./img/arrow.png"
+                          alt=""
+                      /></span>
+                    </h4>
+                  </div>
+                  <div class="descriptionTexte">
+                    <p>
+                      Site fictif pour le RNCP de niveau 5. Blog en Php/Symfony avec mySql et Twig en front.
+                      Vulgarisation du WEB3
+                    </p>
+                  </div>
+                  <div class="langage">
+                    <div class="symfony">
+                      <p>Symfony</p>
+                    </div>
+                    <div class="twig">
+                      <p>Twig</p>
+                    </div>
+                    <div class="css">
+                      <p>CSS</p>
+                    </div>
+                    <div class="mysql">
+                      <p>Mysql</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tailleCardProjet">
+                <div class="containerImg">
+                  <div class="imgSite"></div>
+                </div>
+                <div class="containerDescription">
+                  <div class="titreProjet">
+                    <h4>
+                      Calculatrice<span
+                        ><img
+                          style="width: 10px; height: 10px; margin-left: 3px"
+                          src="./img/arrow.png"
+                          alt=""
+                      /></span>
+                    </h4>
+                  </div>
+                  <div class="descriptionTexte">
+                    <p>Projet de calculatrice en javascript</p>
+                  </div>
+                  <div class="langage">
+                    <div class="langageHtml">
+                      <p>HTML</p>
+                    </div>
+                    <div class="css">
+                      <p>CSS</p>
+                    </div>
+                    <div class="javascript">
+                      <p>Javascript</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tailleCardProjet3">
+                <div class="containerImg">
+                  <div class="imgSite"></div>
+                </div>
+                <div class="containerDescription">
+                  <div class="titreProjet">
+                    <h4>
+                      MuséeConsole<span
+                        ><img
+                          style="width: 10px; height: 10px; margin-left: 3px"
+                          src="./img/arrow.png"
+                          alt=""
+                      /></span>
+                    </h4>
+                  </div>
+                  <div class="descriptionTexte">
+                    <p>
+                      Projet de musée en react-native avec système de CRUD en NodeJS
+                      avec mongoDB et comme simulateur Android Studio.
+                    </p>
+                  </div>
+                  <div class="langage">
+                    <div class="reactnative">
+                      <p>React.nat</p>
+                    </div>
+                    <div class="node">
+                      <p>Node.js</p>
+                    </div>
+                    <div class="javascript">
+                      <p>MongoDb</p>
+                    </div>
+                    <div class="androidStudio">
+                      <p>Android Studio</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tailleCardProjet4">
+                  <div class="containerImg">
+                    <div class="imgSite"></div>
+                  </div>
+                  <div class="containerDescription">
+                    <div class="titreProjet">
+                      <h4>
+                        RPG.js<span
+                          ><img
+                            style="width: 10px; height: 10px; margin-left: 3px"
+                            src="./img/arrow.png"
+                            alt=""
+                        /></span>
+                      </h4>
+                    </div>
+                    <div class="descriptionTexte">
+                      <p>Projet de rpg avec choix multiple en HTML, CSS et Javascript</p>
+                      <p class="enCoursDeDev"></p>
+                    </div>
+                    <div class="langage">
+                      <div class="langageHtml">
+                        <p>HTML</p>
+                      </div>
+                      <div class="css">
+                        <p>CSS</p>
+                      </div>
+                      <div class="javascript">
+                        <p>Javascript</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+      <div class="containerTitre">
+        <div class="titre">
+          <h1 id="CV">CV</h1>
+        </div>
+      </div>
+      <div class="containerCV">
+        <embed src="./img/CV Antony Druon Alternance.pdf" width="1100px" height="1200px" type="application/pdf"/>
+        </div>
+      </main>
+    <footer>
+      <div class="containerForm">
+        <form onsubmit="sendEmail(); reset(); return false;">
+          <h4>QUESTION?</h4>
+          <input type="text" id="name" placeholder="Prénom" required>
+          <input type="text" id="email" placeholder="Email" required>
+          <textarea  id="message" rows="4" placeholder="Placer votre message ici"></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+      <div class="containerFooter">
+        <p>Antony Druon @ 2023</p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/antony-druon-038723227/" target="_blank">Linkedin</a></li>
+          <li><a href="https://github.com/AntonyDruon" target="_blank">Github</a></li>
+      </ul>
+      </div>
+  </footer>
+  </body>
+</html>

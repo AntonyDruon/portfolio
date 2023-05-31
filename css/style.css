@@ -1,0 +1,610 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@font-face {
+  font-family: 'royal_weddingregular';
+  src: url('/font/royalwedding-regular-webfont.woff2') format('woff2'),
+       url('/font/royalwedding-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+*{
+    margin: 0 auto;
+    padding:  0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #050810;
+}
+header{
+  font-family: 'Inter', sans-serif;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition : 0.6s;
+    border-radius: 30px;
+    background-color: #25599c81;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 99; 
+}
+header.sticky{
+  position: fixed;
+  left : 0;
+  top : 50%;
+  margin : 0;
+  margin-left : 2%;
+  width : 7%;
+  height: 300px;
+  padding : 0;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #25599c81;
+}
+
+header.sticky li {
+    width : 100%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+  
+}
+header.sticky li ul{
+    padding : 0;
+    font-size: 50px;
+    font-weight: 100;
+    color : #c8b6ff;
+} 
+header.sticky li ul a {
+    color : rgba(144,228,168,1);
+}
+li {
+    display: flex;
+    margin: 0;
+    width: 50%;
+}
+ul {
+    font-size: 73px;
+    font-weight: 100;
+    font-family: 'royal_weddingregular';
+}
+main{
+    max-width : 80%;
+}
+a{
+    text-decoration: none;
+    color: rgba(144,228,168,1);
+}
+
+h1 {
+    font-size: 73px;
+    font-weight: 100;
+    font-family: 'royal_weddingregular';
+}
+.containerPresentation{
+    margin-top: 105px;
+    display: flex;
+}
+.containerPresentationMoi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+    box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -webkit-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -moz-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    border:1px solid rgb(144, 228, 168);
+    border-radius: 15px;
+    width: 80%;
+}
+
+.presentation {
+    height: 800px;
+    width: 49%;
+    border : 1px solid aquamarine;
+    border-radius: 33px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0E1825;
+    
+}
+.presentationMoi{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom : 20px
+}
+.presentation h2 {
+    color: rgb(215, 215, 215);
+    font-family: 'Inter', sans-serif;
+    vertical-align: text-top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 15px;
+}
+.presentation .presentationMoi .containerPresentationMoi p {
+    font-size: 22px;
+    animation: wobble 2.5s infinite;
+    margin: 0;
+}
+.presentation .presentationMoi .containerPresentationMoi span {
+    position: relative;
+    font-family: 'royal_weddingregular';
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(79, 163, 103),rgb(79, 163, 103));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 2s infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(79, 163, 103);
+}
+
+.presentation h2 span {
+    margin: 5px;
+    
+   
+}
+
+.presentation p {
+    margin-left: 15px;
+    color: rgb(215, 215, 215);
+    font-family: 'Inter', sans-serif;
+    
+}
+.presentationText{
+    /* background-color: #10E956; */
+    height: 70%;
+   
+   
+}
+.container{
+    box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -webkit-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -moz-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    border:1px solid rgb(144, 228, 168);
+    border-radius: 15px;
+    height : 400px;
+    width : 90%;
+    font-size: 30px;
+    margin : 0;
+    
+}
+.illustration{
+    width: 49%;
+    border : 1px solid aquamarine;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Illu{
+    width: 100%;
+    height: 600px;
+    
+}
+.containerTitre{
+    height: 80px;
+    /* border: 1px solid aquamarine; */
+    max-width: 100%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #25599c81;
+    
+  
+}
+.titre{
+  color : rgb(255, 255, 255);
+  font-size: 30px;
+  
+}
+.containerProjet{
+  margin-top: 15px;
+  border: 1px solid aquamarine;
+  border-radius: 30px;
+  background-color: #0E1825;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  
+  
+}
+.PlacementCardProject{
+  border-radius: 30px;
+  width : 84%;
+  margin : 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap : 0px;
+  
+}
+
+.tailleCardProjet{
+  width : 576px;
+  height: 250px;
+  background-color: #1825366e;
+  margin : 30px;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -webkit-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -moz-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    border:1px solid rgb(144, 228, 168);
+  
+}
+.tailleCardProjet2{
+  width : 576px;
+  height: 250px;
+  background-color: #1825366e;
+  margin : 30px;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -webkit-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -moz-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    border:1px solid rgb(144, 228, 168);
+  
+}
+.tailleCardProjet3{
+  width : 576px;
+  height: 250px;
+  background-color: #1825366e;
+  margin : 30px;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -webkit-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -moz-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    border:1px solid rgb(144, 228, 168);
+  
+}
+.tailleCardProjet4{
+  width : 576px;
+  height: 250px;
+  background-color: #1825366e;
+  margin : 30px;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -webkit-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    -moz-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
+    border:1px solid rgb(144, 228, 168);
+  
+}
+.containerImg {
+  width: 201px;
+  /* background-color: aliceblue; */
+  height: 100%;
+  margin : 0;
+  display : flex;
+  flex-direction: column;
+
+}
+.imgSite {
+  height: 230px;
+  background-color: #0E1825;
+  width: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/Vulgarigeek.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin : 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  border: #0E1825;
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54); 
+box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54);
+
+}
+.tailleCardProjet .imgSite {
+  height: 230px;
+  background-color: #0E1825;
+  width: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/calculatrice.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin : 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  border: #0E1825;
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54); 
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54);
+
+}
+.tailleCardProjet3 .imgSite {
+  height: 230px;
+  background-color: #0E1825;
+  width: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/Museeapp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin : 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  border: #0E1825;
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54); 
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54);
+
+}
+.tailleCardProjet4 .imgSite {
+  height: 230px;
+  background-color: #0E1825;
+  width: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/Rpg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin : 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  border: #0E1825;
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54); 
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54);
+
+}
+
+
+
+.containerDescription{
+  display: flex;
+  flex-direction: column;
+ 
+  margin : 0;
+  width : 355.59px;
+}
+.titreProjet{
+  margin-top: 27px;
+  margin-left: 15px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+  --tw-text-opacity: 1;
+    color: rgb(226 232 240/var(--tw-text-opacity));
+}
+.descriptionTexte{
+  margin-left: 15px;
+  margin-top : 15px;
+  font-family: 'Inter', sans-serif;
+  --tw-text-opacity: 0.5;
+    color: rgb(226 232 240/var(--tw-text-opacity));
+    height: 100%;
+}
+.enCoursDeDev{
+  color: red;
+  text-align: center;
+  
+}
+.langage{
+  display : flex;
+  /* (justify-content: space-evenly;) */
+  align-items: end;
+  flex-wrap: wrap;
+  margin : 0;
+  margin-top : 15px;
+  margin-bottom: 15px;
+  height : 100%;
+}
+
+
+
+
+.css, .twig, .reactnative, .langageHtml, .javascript, .symfony, .mysql, .symfony, .node, .androidStudio{
+  
+    background-color: rgba(42, 73, 68, 0.283);
+    border-radius: 9999px;
+    height: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.25rem;
+    color : rgba(144, 228, 168, 0.889);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+  
+}
+.androidStudio{
+  width: 40%;
+}
+.mysql, .androidStudio {
+    margin-left : 6px
+}
+
+ .containerCV{
+  margin-top: 15px;
+  border: 1px solid aquamarine;
+  border-radius: 30px;
+  background-color: #0E1825;
+  display: flex;
+  padding: 20px;
+  /* justify-content: ; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap : 0px
+  
+}
+ .imgCV{
+  width: 50%;
+  height :800px;
+}
+.containerExperience{
+  border: 1px solid aquamarine;
+}
+
+footer{
+  max-width: 100%;
+  font-family: 'Inter', sans-serif;
+  margin : 0px auto;
+  margin-top : 15px;
+  background-color: #25599c81;
+  z-index: 9999;
+  
+}
+.containerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul, footer p{
+  color : white;
+  font-family: "inter";
+  font-size: 20px;
+}
+.containerForm{
+width: 100%;
+height: 100vh;
+background-color: #0E1825;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+form{
+  background : #25599c81;
+  display: flex;
+  flex-direction: column;
+  padding : 2vw 4vw;
+  width : 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 0;
+}
+form h4, form input, form textarea, form button {
+  margin : 0;
+}
+form h4{
+  color: rgba(144, 228, 168, 0.889);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+form input, form textarea{
+  border: 0;
+  margin : 10px 0;
+  padding : 20px;
+  outline : none;
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
+form button{
+  padding: 15px;
+  background-color: rgba(144, 228, 168, 0.889);
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  outline : none;
+  cursor: pointer;
+  width : 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+
+
+
+
+ 
+
+@keyframes wobble {
+    from {
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+  
+    15% {
+      transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg) scale(1.1);
+    }
+  
+    30% {
+      transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg) scale(1.2);
+    }
+  
+    45% {
+      transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg) scale(1.3);
+    }
+  
+    60% {
+      transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg) scale(1.2);
+    }
+  
+    75% {
+      transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg) scale(1.1);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+  }
+  @keyframes rainbowgreen {
+    0% {
+      color: rgb(144, 228, 168);
+    }
+    15%{
+        color : rgb(215, 215, 215);
+    }
+    30% {
+      color: rgb(144, 228, 168);
+    }
+    45% {
+      color: rgb(144, 228, 168);
+    }
+    60%{
+        color : rgb(215, 215, 215);
+    }
+    75% {
+      color: rgb(144, 228, 168);
+    }
+    90%{
+        color : rgb(215, 215, 215);
+    }
+    100% {
+        color: rgb(144, 228, 168);
+    }
+  }
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
