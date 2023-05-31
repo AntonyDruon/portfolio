@@ -222,11 +222,17 @@
     <footer>
       <div class="containerForm">
         <form action="https://formsubmit.co/96f8518d17019e256bf9704b8f93d1f7" method="POST" />
+        <!-- Attrapons les spammeurs!  -->
+          <input type="text" name="_honey" style="display: none;">
+          <!-- Pas de capcha ici -->
+          <input type="hidden" name="_captcha" value ="false">
+          <input type="hidden" name="_next" value="https://antonydruonportfolio.netlify.app/sucess">
+
           <h4>QUESTION?</h4>
           <input name="name"type="text" id="name" placeholder="Prénom" required>
           <input name="email" type="text" id="email" placeholder="Email" required>
           <textarea  name="message" id="message" rows="4" placeholder="Placer votre message ici"></textarea>
-          <button name ="submit" type="submit">Envoyer</button>
+          <button  type="submit">Envoyer</button>
         </form>
       </div>
       <div class="containerFooter">
