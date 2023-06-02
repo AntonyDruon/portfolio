@@ -17,14 +17,13 @@ body{
     background-color: #050810;
 }
 header{
-  font-family: 'Inter', sans-serif;
-    height: 80px;
+    
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition : 0.6s;
-    border-radius: 30px;
-    background-color: #25599c81;
+    background-color: #15315581;
     position: fixed;
     top: 0;
     left: 0;
@@ -37,20 +36,20 @@ header.sticky{
   left : 0;
   top : 50%;
   margin : 0;
-  margin-left : 2%;
+  
   width : 7%;
   height: 300px;
   padding : 0;
-  border-radius: 30px;
+  border-radius: 0px 30px 30px 0px;;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: #25599c81;
+  background-color: #15315581;
 }
 
 header.sticky li {
     width : 100%;
-    font-size: 50px;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -58,40 +57,37 @@ header.sticky li {
   
 }
 header.sticky li ul{
-    padding : 0;
-    font-size: 50px;
-    font-weight: 100;
-    color : #c8b6ff;
+    font-size: 20px;
 } 
-header.sticky li ul a {
-    color : rgba(144,228,168,1);
-}
+
 li {
     display: flex;
     margin: 0;
     width: 50%;
 }
 ul {
-    font-size: 73px;
+    font-size: 30px;
     font-weight: 100;
-    font-family: 'royal_weddingregular';
+    font-family:'Courier New', Courier, monospace
 }
 main{
-    max-width : 80%;
+    max-width : 100%;
 }
 a{
     text-decoration: none;
-    color: rgba(144,228,168,1);
+    color: #0f0;
 }
 
 h1 {
-    font-size: 73px;
+    font-size: 40px;
     font-weight: 100;
-    font-family: 'royal_weddingregular';
+    font-family:'Courier New', Courier, monospace;
 }
 .containerPresentation{
-    margin-top: 105px;
+    margin-top: 155px;
     display: flex;
+    width : 80%;
+    height : 80%;
 }
 .containerPresentationMoi{
     display: flex;
@@ -99,35 +95,28 @@ h1 {
     align-items: center;
     height: 60px;
     margin: 0;
-    box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
-    -webkit-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
-    -moz-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
-    border:1px solid rgb(144, 228, 168);
     border-radius: 15px;
-    width: 80%;
+    width: 500px;
 }
 
 .presentation {
-    height: 800px;
+    height: 600px;
     width: 49%;
-    border : 1px solid aquamarine;
     border-radius: 33px;
     display: flex;
     flex-direction: column;
-    background-color: #0E1825;
-    
 }
 .presentationMoi{
     height: 30%;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     margin-bottom : 20px
 }
 .presentation h2 {
     color: rgb(215, 215, 215);
-    font-family: 'Inter', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     vertical-align: text-top;
     display: flex;
     justify-content: center;
@@ -150,7 +139,7 @@ h1 {
     background-size: 80%;
     animation: animate 2s infinite;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: rgb(79, 163, 103);
+    -webkit-text-fill-color:  #0f0;;
 }
 
 .presentation h2 span {
@@ -172,20 +161,20 @@ h1 {
    
 }
 .container{
-    box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
-    -webkit-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
-    -moz-box-shadow: 11px 11px 0px 0px rgba(144,228,168,1);
-    border:1px solid rgb(144, 228, 168);
+    
     border-radius: 15px;
     height : 400px;
-    width : 90%;
-    font-size: 30px;
+    width : 550px;
+    font-size: 25px;
     margin : 0;
+    padding: 10px;
+    color: rgb(215, 215, 215);
+    font-family:'Courier New', Courier, monospace
     
 }
 .illustration{
     width: 49%;
-    border : 1px solid aquamarine;
+    
     border-radius: 33px;
     display: flex;
     justify-content: center;
@@ -199,25 +188,26 @@ h1 {
 }
 .containerTitre{
     height: 80px;
-    /* border: 1px solid aquamarine; */
-    max-width: 100%;
+    
+    width : 80%;
     display : flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    margin-top: 30px;
+    margin-top: 75px;
     margin-bottom: 30px;
-    background-color: #25599c81;
+    background-color: #15315581;
     
   
 }
 .titre{
-  color : rgb(255, 255, 255);
+  color : #0f0;
   font-size: 30px;
+  font-family:'Courier New', Courier, monospace;
   
 }
 .containerProjet{
-  margin-top: 15px;
+  margin-top: 75px;
   border: 1px solid aquamarine;
   border-radius: 30px;
   background-color: #0E1825;
@@ -225,6 +215,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width : 80%;
  
   
   
@@ -234,6 +225,7 @@ h1 {
   width : 84%;
   margin : 0;
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap : 0px;
@@ -451,23 +443,55 @@ box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54);
 .mysql, .androidStudio {
     margin-left : 6px
 }
-
- .containerCV{
+.containerCV{
   margin-top: 15px;
   border: 1px solid aquamarine;
   border-radius: 30px;
   background-color: #0E1825;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   padding: 20px;
-  /* justify-content: ; */
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap : 0px
-  
+  width: 80%;
 }
- .imgCV{
+.placementImgDL{
+margin : 0;
+}
+.placementDownload{
+  margin : 0;
+  width : 50vh;
+  height: 50vh;
+  /* border: #0f0 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap : 10px;
+  /* align-items: center; */
+}
+.placementDownload a {
+  z-index : 9999;
+}
+.imgCV{
   width: 50%;
   height :800px;
+}
+.textCv{
+  color: rgb(215, 215, 215);
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+.download{
+  background-color: rgba(42, 73, 68, 0.283);
+  border-radius: 25px;
+  width: 200px;
+  height : 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 2px 0px #000000; 
+  box-shadow: 0px 0px 2px 0px #000000;
+
 }
 .containerExperience{
   border: 1px solid aquamarine;
@@ -478,37 +502,57 @@ footer{
   font-family: 'Inter', sans-serif;
   margin : 0px auto;
   margin-top : 15px;
-  background-color: #25599c81;
+  background-color: #0E1825;
   z-index: 9999;
   
 }
 .containerFooter {
+  width : 30%;
+  height: 45vh;
+  margin : 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  
+}
+.placementelementfooteur{
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer ul, footer p{
+footer ul, footer p, .placementcredit p{
   color : white;
   font-family: "inter";
   font-size: 20px;
 }
 .containerForm{
-width: 100%;
-height: 100vh;
+width: 50%;
+height: 60vh;
 background-color: #0E1825;
 display: flex;
 align-items: center;
 justify-content: center;
+margin : 0;
+
+}
+footer ul {
+  display : flex;
+  justify-content: space-evenly;
+  margin : 0;
+  width : 100%
 }
 form{
   background : #25599c81;
   display: flex;
   flex-direction: column;
-  padding : 2vw 4vw;
+  padding : 1vw 3vw;
   width : 90%;
   max-width: 600px;
   border-radius: 10px;
   margin: 0;
+  -webkit-box-shadow: 1px 2px 12px 0px #000000; 
+box-shadow: 1px 2px 12px 0px #000000;
 }
 form h4, form input, form textarea, form button {
   margin : 0;
@@ -537,6 +581,15 @@ form button{
   width : 150px;
   margin: 20px auto 0;
   border-radius: 30px;
+}
+.placementcredit{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.placementcredit i {
+  margin-right : 5px;
 }
 
 
