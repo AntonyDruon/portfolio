@@ -149,6 +149,10 @@
     .container {
         width : 400px;
     }
+    header.sticky ul{
+        
+        height: 100%;
+    } 
 }
 @media screen and (min-width : 425px) and (max-width : 435px){
     .PlacementCardProject{
