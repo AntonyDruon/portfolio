@@ -20,6 +20,7 @@
 body{
     background-color: #040d29;
 }
+
 img {
   width: 100%;
 }
@@ -34,7 +35,7 @@ header {
   justify-content: space-between;
   padding: 0 50px;
   background: #0b2239;
-  z-index : 999;
+  z-index : 5;
   transition : 0.6s;
   
 }
@@ -125,7 +126,7 @@ header .header-right {
   display: flex;
   align-items: end;
   margin : 0;
-  z-index : 999;
+  z-index : 5;
 }
 
 header .header-right .hamburger {
@@ -157,7 +158,7 @@ header .header-right .hamburger div {
       /* padding: 30px; */
       transition: 0.3s;
       text-align: center;
-      z-index:  999;
+      z-index:  5;
   }
   header .header-left nav.active {
     
@@ -570,7 +571,7 @@ margin : 0;
   /* align-items: center; */
 }
 .placementDownload a {
-  z-index : 9999;
+  z-index : 5;
 }
 .imgCV{
   width: 50%;
@@ -604,7 +605,7 @@ footer{
   margin : 0px auto;
   margin-top : 15px;
   background-color: #0E1825;
-  z-index: 9999;
+  z-index: 5;
   
 }
 .containerFooter {
