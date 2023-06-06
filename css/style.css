@@ -64,7 +64,7 @@ header.sticky .header-left{
 header.sticky nav{
   display: flex !important;
   flex-direction: column;
-  width: 100% !important;
+  width: 100% ;
   height: 100%;
   margin : 0 !important;
   
@@ -101,7 +101,7 @@ header .header-left .logo {
 header .header-left nav {
   margin: 0;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center; 
   width : 60%;
 }

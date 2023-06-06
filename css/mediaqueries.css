@@ -97,17 +97,24 @@
         text-align: center;
         z-index: -1;
     }
-    header nav.active {
+    header.sticky nav.active {
         top: 70px;
-        height: fit-content;
+        height: 200px;
+        /* border: 2px solid red; */
+        justify-content: "center";
     }
     header  nav ul {
         display: block;
-        height: 300px;
+        height: 120px;
+    }
+    header.sticky nav.active ul {
+       
+        height: 40px;
+        /* border: 2px solid rgb(0, 255, 110); */
     }
     header  nav ul {
         display: block;
-        height: 100px;
+        height: 120px;
     }
     header.sticky {
         position : fixed;
