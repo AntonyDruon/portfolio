@@ -196,7 +196,7 @@ h1 {
     height: 60px;
     margin: 0;
     border-radius: 15px;
-    width: 500px;
+    width: 100%;
 }
 
 .presentation {
@@ -210,7 +210,7 @@ h1 {
     height: 30%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: end;
     margin-bottom : 20px
 }
@@ -221,12 +221,13 @@ h1 {
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    /* margin : 15px; */
+    margin-left : 10px;
 }
 .presentation .presentationMoi .containerPresentationMoi p {
     font-size: 22px;
     animation: wobble 2.5s infinite;
     margin: 0;
+    padding-top : 10px
 }
 .presentation .presentationMoi .containerPresentationMoi span {
     position: relative;
@@ -259,6 +260,7 @@ h1 {
 .presentationText{
     /* background-color: #10E956; */
     height: 70%;
+    margin : 0;
    
    
 }

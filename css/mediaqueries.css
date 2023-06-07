@@ -6,13 +6,33 @@
 }
 
 @media screen and (max-width : 1920px){
+    .presentationMoi{
+        /* justify-content: baseline; */
+    }
+    .presentation .presentationMoi .containerPresentationMoi span {
+        font-size: 50px;
+    }
     .containerPresentationMoi {
-        width: 500px;
+        width: 100%;
     }
     .presentation h2 span{
         
         font-size: 40px;
-        vertical-align: middle;
+        /* vertical-align: middle; */
+    }
+    .presentation h2 {
+        align-items: center;
+    }
+
+}
+@media screen and (max-width : 1790px){
+    .containerPresentationMoi {
+        width: 100%;
+    }
+    .presentation h2 span{
+        
+        font-size: 10px;
+        /* vertical-align: middle; */
     }
     .presentation h2 {
         align-items: center;
@@ -22,6 +42,9 @@
 @media screen and (max-width : 1440px){
     .placementDownload{
         margin-left: 30px;
+    }
+    .presentation .presentationMoi .containerPresentationMoi span {
+        font-size: 40px;
     }
 }
 @media screen and (max-width : 1263px){
@@ -40,6 +63,19 @@
     }
     .presentation{
         width : 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .presentationMoi{
+        width :70%;
+        justify-content: center;
+    }
+    .containerPresentationMoi{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .placementDownload{
         width : 100%;
@@ -131,6 +167,16 @@
         transition : 0.6s;
         border-radius : 0;
     }
+    .presentationMoi{
+        width : 60%;
+        justify-content: center;
+    }
+    .containerPresentationMoi{
+        width : 100%;
+    }
+    .presentation .presentationMoi .containerPresentationMoi span {
+        font-size: 30px;
+    }
 }
 @media screen and (max-width : 845px){
     .containerTitre {
@@ -146,13 +192,27 @@
     .illustration{
         width : 100%;
     }
+    .presentation .presentationMoi .containerPresentationMoi span {
+        font-size: 40px;
+    }
+    .presentationMoi{
+        /* width : 80%; */
+        justify-content: center;
+    }
+}
+@media screen and (max-width : 797px){
+    .presentationMoi{
+        width : 70%;
+        justify-content: center;
+    }
+
 }
 @media screen and (max-width : 635px){
    .PlacementCardProject{
     width : 100%
    }
    .containerPresentationMoi{
-    width : 95%;
+    width : 100%;
     }
     .tailleCardProjet2, .tailleCardProjet, .tailleCardProjet3, .tailleCardProjet4{
         width: 400px;
@@ -166,6 +226,36 @@
         
         height: 100%;
     } 
+    .presentationMoi{
+        width : 85%;
+        justify-content: center;
+    }
+    .container {
+        width : 100%
+    }
+}
+@media screen and (max-width : 575px){
+    h2 {
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .presentation .presentationMoi .containerPresentationMoi span {
+        font-size: 20px;
+    }
+    .containerPresentationMoi{
+        width: 80%;
+    }
+    .presentation h2 {
+        align-items: end;
+    }
+    .container span {
+        font-size : 18px;
+    }
+    .containerProjet {
+        border: 0px;
+        background-color: #040d29;
+    }
+
 }
 @media screen and (min-width : 425px) and (max-width : 435px){
     .PlacementCardProject{
@@ -191,20 +281,57 @@
         font-size : 30px;
     }
     .tailleCardProjet2, .tailleCardProjet, .tailleCardProjet3, .tailleCardProjet4{
-        width: 400px;
-        height : 280px;
+        width: 300px;
+        height : 230px;
         margin : 0;
         margin-top : 30px;
    }
-   .imgSite{
-    height : 200px;
-    width : 146px;
+   
+   .PlacementCardProject .imgSite {
+    height : 90%;
+    width : 100%;
+    margin-top : 5px;
+    margin-left: 5px;
    }
+   .langage{
+    width : 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+   }
+   .androidStudio{
+    width : 50%
+   }
+   .javascript{
+    width : 30%;
+   }
+   .css, .mysql, .langageHtml {
+    width : 25%;
+    
+   }
+   .css, .twig, .reactnative, .langageHtml, .javascript, .symfony, .mysql, .symfony, .node, .androidStudio{
+  height : 25px;
+}
    .containerForm{
-    height : 60vh;
+    height : 70vh;
    }
    .placementImgDL img {
-    width : 300px !important;
-    height : 500px
+    width : 80% !important;
+    height : 30% ! important;
+   }
+   .placementImgDL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .placementDownload {
+    margin-left: 0px;
+   }
+   h4 {
+    font-size : 12px;
+   }
+   p {
+    font-size : 10px;
    }
  }
