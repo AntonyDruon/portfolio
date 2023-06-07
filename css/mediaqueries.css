@@ -277,8 +277,11 @@
         font-size:30px;
         margin : 5px
     }
+    .presentationMoi{
+        width : 100%;
+    }
     h2 {
-        font-size : 30px;
+        
     }
     .tailleCardProjet2, .tailleCardProjet, .tailleCardProjet3, .tailleCardProjet4{
         width: 300px;
