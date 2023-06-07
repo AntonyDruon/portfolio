@@ -237,10 +237,10 @@
 @media screen and (max-width : 575px){
     h2 {
         margin-left: 0;
-        font-size: 18px;
+        font-size: 15px;
     }
     .presentation .presentationMoi .containerPresentationMoi span {
-        font-size: 20px;
+        font-size: 30px;
     }
     .containerPresentationMoi{
         width: 80%;
@@ -317,8 +317,8 @@
     height : 70vh;
    }
    .placementImgDL img {
-    width : 80% !important;
-    height : 30% ! important;
+    width : 90% !important;
+    height : 35% ! important;
    }
    .placementImgDL {
     display: flex;
